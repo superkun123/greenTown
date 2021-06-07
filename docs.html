@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./js/slick/slick.css" type="text/css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> -->
+    <link rel="stylesheet" href="./css/nouislider.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=f7d80e1e-5437-45b3-8559-32d6ecd8532f&lang=ru_RU" type="text/javascript">
+    </script>
+
+    <title>GreenTown</title>
+</head>
+<body>
+  
+
+
+    <header class="inner-header" id="header">
+        <nav class="main-header__nav">
+            <a href="#" class="main-header__logo">
+                <img src="./assets/img/white-logo.svg" alt="Логотип">
+            </a>
+            <div class="main-header__menu-list">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Выбор квартир</a></li>
+                    <li><a href="#">Ход строительства</a></li>
+                    <li><a href="#">Документация</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="phone-and-call">
+                <div class="phone-dropdown">
+                    <a class="white-link" href="tel:8918914444">8-918-914-44-4 <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="5.65649" y="11.3135" width="2" height="8" rx="1" transform="rotate(-135 5.65649 11.3135)" fill="white"/>
+                        <rect x="7.07056" y="9.89941" width="2" height="8" rx="1" transform="rotate(135 7.07056 9.89941)" fill="white"/>
+                        </svg>
+                        </a>
+                    <div class="drop-down-hidden">
+                        <ul>
+                            <li class="dropdown-option"> <a href="tel:8918914444">8-918-914-44-4 </a></li>
+                            <li class="dropdown-option"> <a href="tel:8918914444">8-918-914-44-4 </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#" class="main-btn white-btn" data-toggle="modal" data-target="#exampleModalCenter2">Обратный звонок</a>
+                <a href="tel:+7(3452)561525" class="round-btn phone-btn">
+                    <svg width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.87939 11.9748C7.08937 11.8559 6.33839 11.5419 5.68953 11.0594C4.93759 10.5158 4.24686 9.88638 3.63032 9.18285C2.87301 8.34299 2.10182 7.51392 1.43353 6.58767C0.907454 5.84379 0.436878 5.06391 0.180199 4.16766C0.00170633 3.59782 -0.0450314 2.99239 0.0437669 2.40034C0.159388 1.69365 0.520125 1.11894 1.01383 0.637822C1.21745 0.448857 1.43859 0.281267 1.67402 0.137502C1.81418 0.0451051 1.97735 -0.00265781 2.14338 0.000114159C2.30941 0.00288613 2.47101 0.0560715 2.60824 0.153099C3.2656 0.559039 3.76944 1.18603 4.03615 1.93001C4.08188 2.03483 4.09967 2.15045 4.08767 2.26483C4.07568 2.37921 4.03433 2.48816 3.96794 2.58031C3.8026 2.81187 3.63032 3.03744 3.46383 3.269C3.31699 3.47417 3.16437 3.67573 3.03372 3.8917C2.96647 3.99009 2.93082 4.10799 2.93186 4.22862C2.9329 4.34924 2.97057 4.46646 3.0395 4.56359C3.36902 5.04352 3.68813 5.53784 4.04656 5.99496C4.69508 6.82803 5.41318 7.6001 6.19248 8.30219C6.36591 8.45697 6.55206 8.59375 6.73705 8.73412C6.81585 8.79769 6.91058 8.83645 7.00998 8.84581C7.10938 8.85517 7.20928 8.83473 7.29782 8.78692C7.49606 8.68552 7.68903 8.57339 7.87592 8.45097C8.13491 8.2794 8.38928 8.10303 8.64364 7.93385C8.7485 7.86422 8.86986 7.82602 8.99433 7.82348C9.1188 7.82094 9.24152 7.85415 9.34893 7.91945C10.0049 8.2572 10.5397 8.80372 10.8751 9.47921C10.9694 9.64789 11.012 9.84239 10.9971 10.0368C10.9822 10.2312 10.9106 10.4163 10.7919 10.5674C10.1525 11.4385 9.33505 11.976 8.24822 12C8.12494 11.9981 8.00184 11.9897 7.87939 11.9748Z" fill="#fff"/>
+                        </svg>                            
+                </a>
+                <a href="#" class="hamburger">
+                    <div class="line firstline"></div>
+                    <div class="line secondline"></div>
+                </a>
+            </div>
+        </nav>
+
+
+        <div class="mobile-menu header-mobile">
+            <ul class="mobile-menu-list">
+                  <li><a href="#">Главная</a></li>
+                  <li><a href="#">Выбор квартир</a></li>
+                  <li><a href="#">Ход строительства</a></li>
+                  <li><a href="#">Документация</a></li>
+                  <li><a href="#">Контакты</a></li>
+            </ul>
+            <ul class="mobile-menu-contacts">
+                <li>
+                    <div  class="mobile-menu-item">
+                     
+                            <div class="join-us__contact">
+                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="12.3384" cy="12" r="11" stroke="white" stroke-width="2"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.52037 9.46159C7.52037 9.46159 7.27266 8.78684 7.35523 8.41198C7.39652 7.99963 7.60294 7.77472 7.60294 7.77472L8.84151 6.50019C8.84151 6.50019 9.17179 6.27527 9.62593 6.68762C10.0388 7.13745 11.4425 8.52444 11.4425 8.52444C11.4425 8.52444 11.9379 8.97427 11.4838 9.42411C11.0296 9.87394 10.6168 10.2863 10.6168 10.2863C10.6168 10.2863 10.4929 10.3613 10.7819 10.8111C10.9883 11.186 13.0939 13.0977 13.5068 13.3227C14.0022 13.5476 14.0848 13.4726 14.0848 13.4726C14.0848 13.4726 14.5389 13.0977 15.0756 12.6854C15.571 12.2356 16.0252 12.6854 16.0252 12.6854C16.0252 12.6854 17.594 13.9974 18.0482 14.3723C18.5436 14.7471 18.2546 15.0845 18.2546 15.0845L16.8922 16.1716C16.8922 16.1716 16.6032 16.359 16.1903 16.434C15.7362 16.4715 14.993 16.2841 14.993 16.2841C12.2682 15.4594 8.38737 11.9357 7.52037 9.46159Z" fill="white"/>
+                                    </svg>
+                                    <div class="join-us__label">
+                                        Телефон отдела продаж
+                                    </div>
+                                    <div class="join-us__value">
+                                        8-918-914-44-4
+                                    </div>
+                            </div>
+                     
+                        
+                    </div>
+                </li>
+                <li>
+                <div  class="mobile-menu-item">
+                    
+                    <div class="join-us__contact">
+                        <svg width="23" height="27" viewBox="0 0 23 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="path-1-inside-1" fill="white">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.0239 18.9238C21.8517 16.9143 22.9658 14.2441 22.9658 11.3137C22.9658 5.06532 17.9005 0 11.6521 0C5.4037 0 0.338379 5.06532 0.338379 11.3137C0.338379 14.244 1.4524 16.9141 3.28002 18.9236L3.2709 18.9327L10.2376 25.8995C11.0187 26.6805 12.285 26.6805 13.0661 25.8994L19.6047 19.3608C19.6364 19.3295 19.6679 19.298 19.6992 19.2664L20.0328 18.9327L20.0239 18.9238Z"/>
+                            </mask>
+                            <path d="M20.0239 18.9238L18.5444 17.5781L17.2609 18.9892L18.6097 20.338L20.0239 18.9238ZM3.28002 18.9236L4.69424 20.3378L6.04301 18.989L4.7596 17.5779L3.28002 18.9236ZM3.2709 18.9327L1.85669 17.5185L0.442476 18.9327L1.85669 20.3469L3.2709 18.9327ZM10.2376 25.8995L8.82343 27.3137L10.2376 25.8995ZM13.0661 25.8994L14.4803 27.3137L14.4803 27.3137L13.0661 25.8994ZM19.6047 19.3608L18.1988 17.9382L18.1905 17.9466L19.6047 19.3608ZM19.6992 19.2664L18.2849 17.8521L18.2767 17.8605L19.6992 19.2664ZM20.0328 18.9327L21.447 20.3469L22.8612 18.9327L21.447 17.5185L20.0328 18.9327ZM20.9658 11.3137C20.9658 13.7273 20.0504 15.9224 18.5444 17.5781L21.5035 20.2696C23.653 17.9063 24.9658 14.761 24.9658 11.3137H20.9658ZM11.6521 2C16.7959 2 20.9658 6.16989 20.9658 11.3137H24.9658C24.9658 3.96075 19.005 -2 11.6521 -2V2ZM2.33838 11.3137C2.33838 6.16989 6.50827 2 11.6521 2V-2C4.29913 -2 -1.66162 3.96075 -1.66162 11.3137H2.33838ZM4.7596 17.5779C3.25373 15.9222 2.33838 13.7272 2.33838 11.3137H-1.66162C-1.66162 14.7608 -0.348935 17.906 1.80044 20.2693L4.7596 17.5779ZM4.68512 20.3469L4.69424 20.3378L1.86581 17.5094L1.85669 17.5185L4.68512 20.3469ZM11.6519 24.4852L4.68512 17.5185L1.85669 20.3469L8.82343 27.3137L11.6519 24.4852ZM11.6519 24.4852L11.6519 24.4852L8.82343 27.3137C10.3855 28.8758 12.9182 28.8758 14.4803 27.3137L11.6519 24.4852ZM18.1905 17.9466L11.6519 24.4852L14.4803 27.3137L21.019 20.775L18.1905 17.9466ZM18.2767 17.8605C18.2509 17.8866 18.2249 17.9125 18.1989 17.9383L21.0106 20.7833C21.0478 20.7465 21.0849 20.7095 21.1217 20.6722L18.2767 17.8605ZM18.6186 17.5185L18.2849 17.8522L21.1134 20.6806L21.447 20.3469L18.6186 17.5185ZM18.6097 20.338L18.6186 20.3469L21.447 17.5185L21.4381 17.5096L18.6097 20.338Z" fill="white" mask="url(#path-1-inside-1)"/>
+                            <path d="M15.3527 15.0394C14.3634 16.0194 13.1594 16.5094 11.7407 16.5094C10.322 16.5094 9.11802 16.0194 8.12869 15.0394C7.14869 14.05 6.65869 12.8414 6.65869 11.4134C6.65869 9.98538 7.14869 8.78138 8.12869 7.80138C9.11802 6.81205 10.322 6.31738 11.7407 6.31738C13.1594 6.31738 14.3634 6.81205 15.3527 7.80138C16.342 8.78138 16.8367 9.98538 16.8367 11.4134C16.8367 12.8414 16.342 14.05 15.3527 15.0394ZM9.48669 13.7234C10.0934 14.3207 10.8447 14.6194 11.7407 14.6194C12.6367 14.6194 13.388 14.3207 13.9947 13.7234C14.6014 13.1167 14.9047 12.3467 14.9047 11.4134C14.9047 10.48 14.6014 9.71005 13.9947 9.10338C13.388 8.49672 12.6367 8.19338 11.7407 8.19338C10.8447 8.19338 10.0934 8.49672 9.48669 9.10338C8.88002 9.71005 8.57669 10.48 8.57669 11.4134C8.57669 12.3467 8.88002 13.1167 9.48669 13.7234Z" fill="white"/>
+                            </svg>
+                            
+                            <div class="join-us__label">
+                                Адрес отдела продаж
+                            </div>
+                            <div class="join-us__value">
+                                г. Сочи, ул. Молокова, дом 44, офис 207
+                            </div>
+                    </div>
+                </div>
+            </li>
+            
+            </ul>
+        </div>
+
+
+    </header>
+
+    <main class="history">
+
+
+   
+
+
+
+        <section class="breadcrumbs-sect">
+            <div class="container-for-bread">
+               <div class="row breadcrumb-row">
+               <div class="col">
+                   <ul class="breadcrumbs-ul">
+                       <li class="breadcrumbCustom"><a href="#">Главная</a></li>
+                       <li class="breadcrumbCustom breadcrumbCustom-active"><a href="#">Докуменация</a></li>
+                   </ul>
+               </div>
+           </div>
+            </div>
+    </section>
+
+
+  
+
+    <section class="docs">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="docs__title">Докуменация</h2>
+                </div>
+            </div>
+            <div class="row doc-card-row">
+                <div class="col-md-6 col-lg-3">
+                   <div class="doc-card">
+                       <a href="#" class="doc-card__download">
+                           <img class="pdf" src="./assets/img/pdf.svg" alt="">
+                           <p class="pdf-size-title">.pdf 4,6 МБ</p>
+                           <img class="download" src="./assets/img/download.svg" alt="">
+                       </a>
+                       <div class="doc-card__text">
+                           <p class="opacity">Ответственный Пешехонова К.Н.</p>
+                           <p>Проектная декларация</p>
+                           <p>Размещено
+                            Залуниной А. Е.</p>
+                       </div>
+                   </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="doc-card">
+                        <a href="#" class="doc-card__download">
+                            <img class="pdf" src="./assets/img/pdf.svg" alt="">
+                            <p class="pdf-size-title">.pdf 4,6 МБ</p>
+                            <img class="download" src="./assets/img/download.svg" alt="">
+                        </a>
+                        <div class="doc-card__text">
+                            <p class="opacity">Ответственный Пешехонова К.Н.</p>
+                            <p>Проектная декларация</p>
+                            <p>Размещено
+                             Залуниной А. Е.</p>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="col-md-6 col-lg-3">
+                    <div class="doc-card">
+                        <a href="#" class="doc-card__download">
+                            <img class="pdf" src="./assets/img/pdf.svg" alt="">
+                            <p class="pdf-size-title">.pdf 4,6 МБ</p>
+                            <img class="download" src="./assets/img/download.svg" alt="">
+                        </a>
+                        <div class="doc-card__text">
+                            <p class="opacity">Ответственный Пешехонова К.Н.</p>
+                            <p>Проектная декларация</p>
+                            <p>Размещено
+                             Залуниной А. Е.</p>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="col-md-6 col-lg-3">
+                    <div class="doc-card">
+                        <a href="#" class="doc-card__download">
+                            <img class="pdf" src="./assets/img/pdf.svg" alt="">
+                            <p class="pdf-size-title">.pdf 4,6 МБ</p>
+                            <img class="download" src="./assets/img/download.svg" alt="">
+                        </a>
+                        <div class="doc-card__text">
+                            <p class="opacity">Ответственный Пешехонова К.Н.</p>
+                            <p>Проектная декларация</p>
+                            <p>Размещено
+                             Залуниной А. Е.</p>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+
+
+     
+
+        <section class="join-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col join-us__title-col">
+                        <h2 class="join-us__title">
+                            Приглашаем на персональный показ
+                        </h2>
+                        <p class="join-us__subtitle">Мы прогуляемся по территории, продемонстрируем архитектуру и расскажем подробнее о доме и квартирах.</p>
+                        <a href="#" class="main-btn white-btn form-btn">Записаться на показ</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="join-us__contact">
+                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12.3384" cy="12" r="11" stroke="white" stroke-width="2"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.52037 9.46159C7.52037 9.46159 7.27266 8.78684 7.35523 8.41198C7.39652 7.99963 7.60294 7.77472 7.60294 7.77472L8.84151 6.50019C8.84151 6.50019 9.17179 6.27527 9.62593 6.68762C10.0388 7.13745 11.4425 8.52444 11.4425 8.52444C11.4425 8.52444 11.9379 8.97427 11.4838 9.42411C11.0296 9.87394 10.6168 10.2863 10.6168 10.2863C10.6168 10.2863 10.4929 10.3613 10.7819 10.8111C10.9883 11.186 13.0939 13.0977 13.5068 13.3227C14.0022 13.5476 14.0848 13.4726 14.0848 13.4726C14.0848 13.4726 14.5389 13.0977 15.0756 12.6854C15.571 12.2356 16.0252 12.6854 16.0252 12.6854C16.0252 12.6854 17.594 13.9974 18.0482 14.3723C18.5436 14.7471 18.2546 15.0845 18.2546 15.0845L16.8922 16.1716C16.8922 16.1716 16.6032 16.359 16.1903 16.434C15.7362 16.4715 14.993 16.2841 14.993 16.2841C12.2682 15.4594 8.38737 11.9357 7.52037 9.46159Z" fill="white"/>
+                                </svg>
+                                <div class="join-us__label">
+                                    Телефон отдела продаж
+                                </div>
+                                <div class="join-us__value">
+                                    8-918-914-44-4
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="join-us__contact">
+                            <svg width="23" height="27" viewBox="0 0 23 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <mask id="path-1-inside-1" fill="white">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M20.0239 18.9238C21.8517 16.9143 22.9658 14.2441 22.9658 11.3137C22.9658 5.06532 17.9005 0 11.6521 0C5.4037 0 0.338379 5.06532 0.338379 11.3137C0.338379 14.244 1.4524 16.9141 3.28002 18.9236L3.2709 18.9327L10.2376 25.8995C11.0187 26.6805 12.285 26.6805 13.0661 25.8994L19.6047 19.3608C19.6364 19.3295 19.6679 19.298 19.6992 19.2664L20.0328 18.9327L20.0239 18.9238Z"/>
+                                </mask>
+                                <path d="M20.0239 18.9238L18.5444 17.5781L17.2609 18.9892L18.6097 20.338L20.0239 18.9238ZM3.28002 18.9236L4.69424 20.3378L6.04301 18.989L4.7596 17.5779L3.28002 18.9236ZM3.2709 18.9327L1.85669 17.5185L0.442476 18.9327L1.85669 20.3469L3.2709 18.9327ZM10.2376 25.8995L8.82343 27.3137L10.2376 25.8995ZM13.0661 25.8994L14.4803 27.3137L14.4803 27.3137L13.0661 25.8994ZM19.6047 19.3608L18.1988 17.9382L18.1905 17.9466L19.6047 19.3608ZM19.6992 19.2664L18.2849 17.8521L18.2767 17.8605L19.6992 19.2664ZM20.0328 18.9327L21.447 20.3469L22.8612 18.9327L21.447 17.5185L20.0328 18.9327ZM20.9658 11.3137C20.9658 13.7273 20.0504 15.9224 18.5444 17.5781L21.5035 20.2696C23.653 17.9063 24.9658 14.761 24.9658 11.3137H20.9658ZM11.6521 2C16.7959 2 20.9658 6.16989 20.9658 11.3137H24.9658C24.9658 3.96075 19.005 -2 11.6521 -2V2ZM2.33838 11.3137C2.33838 6.16989 6.50827 2 11.6521 2V-2C4.29913 -2 -1.66162 3.96075 -1.66162 11.3137H2.33838ZM4.7596 17.5779C3.25373 15.9222 2.33838 13.7272 2.33838 11.3137H-1.66162C-1.66162 14.7608 -0.348935 17.906 1.80044 20.2693L4.7596 17.5779ZM4.68512 20.3469L4.69424 20.3378L1.86581 17.5094L1.85669 17.5185L4.68512 20.3469ZM11.6519 24.4852L4.68512 17.5185L1.85669 20.3469L8.82343 27.3137L11.6519 24.4852ZM11.6519 24.4852L11.6519 24.4852L8.82343 27.3137C10.3855 28.8758 12.9182 28.8758 14.4803 27.3137L11.6519 24.4852ZM18.1905 17.9466L11.6519 24.4852L14.4803 27.3137L21.019 20.775L18.1905 17.9466ZM18.2767 17.8605C18.2509 17.8866 18.2249 17.9125 18.1989 17.9383L21.0106 20.7833C21.0478 20.7465 21.0849 20.7095 21.1217 20.6722L18.2767 17.8605ZM18.6186 17.5185L18.2849 17.8522L21.1134 20.6806L21.447 20.3469L18.6186 17.5185ZM18.6097 20.338L18.6186 20.3469L21.447 17.5185L21.4381 17.5096L18.6097 20.338Z" fill="white" mask="url(#path-1-inside-1)"/>
+                                <path d="M15.3527 15.0394C14.3634 16.0194 13.1594 16.5094 11.7407 16.5094C10.322 16.5094 9.11802 16.0194 8.12869 15.0394C7.14869 14.05 6.65869 12.8414 6.65869 11.4134C6.65869 9.98538 7.14869 8.78138 8.12869 7.80138C9.11802 6.81205 10.322 6.31738 11.7407 6.31738C13.1594 6.31738 14.3634 6.81205 15.3527 7.80138C16.342 8.78138 16.8367 9.98538 16.8367 11.4134C16.8367 12.8414 16.342 14.05 15.3527 15.0394ZM9.48669 13.7234C10.0934 14.3207 10.8447 14.6194 11.7407 14.6194C12.6367 14.6194 13.388 14.3207 13.9947 13.7234C14.6014 13.1167 14.9047 12.3467 14.9047 11.4134C14.9047 10.48 14.6014 9.71005 13.9947 9.10338C13.388 8.49672 12.6367 8.19338 11.7407 8.19338C10.8447 8.19338 10.0934 8.49672 9.48669 9.10338C8.88002 9.71005 8.57669 10.48 8.57669 11.4134C8.57669 12.3467 8.88002 13.1167 9.48669 13.7234Z" fill="white"/>
+                                </svg>
+                                
+                                <div class="join-us__label">
+                                    Адрес отдела продаж
+                                </div>
+                                <div class="join-us__value">
+                                    г. Сочи, ул. Молокова, дом 44, офис 207
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="join-us__contact">
+                            <svg width="23" height="27" viewBox="0 0 23 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.2352 11.294V11.918C16.2352 13.166 15.8235 14.1887 15.0002 14.986C14.1768 15.7747 13.1022 16.169 11.7762 16.169C10.3722 16.169 9.21083 15.714 8.29217 14.804C7.38217 13.894 6.92717 12.776 6.92717 11.45C6.92717 10.1327 7.38217 9.019 8.29217 8.109C9.21083 7.19033 10.3462 6.731 11.6982 6.731C12.5475 6.731 13.3232 6.926 14.0252 7.316C14.7272 7.706 15.2732 8.23033 15.6632 8.889L14.3762 9.63C14.1335 9.19667 13.7738 8.85 13.2972 8.59C12.8205 8.32133 12.2875 8.187 11.6982 8.187C10.7448 8.187 9.9605 8.499 9.34517 9.123C8.72983 9.747 8.42217 10.527 8.42217 11.463C8.42217 12.399 8.72983 13.1747 9.34517 13.79C9.96917 14.4053 10.7838 14.713 11.7892 14.713C12.5952 14.713 13.2495 14.5267 13.7522 14.154C14.2635 13.7727 14.5885 13.2657 14.7272 12.633H11.6852V11.294H16.2352Z" fill="white"/>
+                                <mask id="path-2-inside-1" fill="white">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M20.0239 18.9238C21.8517 16.9143 22.9658 14.2441 22.9658 11.3137C22.9658 5.06532 17.9005 0 11.6521 0C5.4037 0 0.338379 5.06532 0.338379 11.3137C0.338379 14.244 1.4524 16.9141 3.28002 18.9236L3.2709 18.9327L10.2376 25.8995C11.0187 26.6805 12.285 26.6805 13.0661 25.8994L19.6047 19.3608C19.6364 19.3295 19.6679 19.298 19.6992 19.2664L20.0328 18.9327L20.0239 18.9238Z"/>
+                                </mask>
+                                <path d="M20.0239 18.9238L18.5444 17.5781L17.2609 18.9892L18.6097 20.338L20.0239 18.9238ZM3.28002 18.9236L4.69424 20.3378L6.04301 18.989L4.7596 17.5779L3.28002 18.9236ZM3.2709 18.9327L1.85669 17.5185L0.442476 18.9327L1.85669 20.3469L3.2709 18.9327ZM10.2376 25.8995L8.82343 27.3137L10.2376 25.8995ZM13.0661 25.8994L14.4803 27.3137L14.4803 27.3137L13.0661 25.8994ZM19.6047 19.3608L18.1988 17.9382L18.1905 17.9466L19.6047 19.3608ZM19.6992 19.2664L18.2849 17.8521L18.2767 17.8605L19.6992 19.2664ZM20.0328 18.9327L21.447 20.3469L22.8612 18.9327L21.447 17.5185L20.0328 18.9327ZM20.9658 11.3137C20.9658 13.7273 20.0504 15.9224 18.5444 17.5781L21.5035 20.2696C23.653 17.9063 24.9658 14.761 24.9658 11.3137H20.9658ZM11.6521 2C16.7959 2 20.9658 6.16989 20.9658 11.3137H24.9658C24.9658 3.96075 19.005 -2 11.6521 -2V2ZM2.33838 11.3137C2.33838 6.16989 6.50827 2 11.6521 2V-2C4.29913 -2 -1.66162 3.96075 -1.66162 11.3137H2.33838ZM4.7596 17.5779C3.25373 15.9222 2.33838 13.7272 2.33838 11.3137H-1.66162C-1.66162 14.7608 -0.348935 17.906 1.80044 20.2693L4.7596 17.5779ZM4.68512 20.3469L4.69424 20.3378L1.86581 17.5094L1.85669 17.5185L4.68512 20.3469ZM11.6519 24.4852L4.68512 17.5185L1.85669 20.3469L8.82343 27.3137L11.6519 24.4852ZM11.6519 24.4852L11.6519 24.4852L8.82343 27.3137C10.3855 28.8758 12.9182 28.8758 14.4803 27.3137L11.6519 24.4852ZM18.1905 17.9466L11.6519 24.4852L14.4803 27.3137L21.019 20.775L18.1905 17.9466ZM18.2767 17.8605C18.2509 17.8866 18.2249 17.9125 18.1989 17.9383L21.0106 20.7833C21.0478 20.7465 21.0849 20.7095 21.1217 20.6722L18.2767 17.8605ZM18.6186 17.5185L18.2849 17.8522L21.1134 20.6806L21.447 20.3469L18.6186 17.5185ZM18.6097 20.338L18.6186 20.3469L21.447 17.5185L21.4381 17.5096L18.6097 20.338Z" fill="white" mask="url(#path-2-inside-1)"/>
+                                </svg>
+                                
+                                <div class="join-us__label">
+                                    Адрес жилого комплекса
+                                </div>
+                                <div class="join-us__value">
+                                    ул. Гастелло 41/3
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="join-us__contact">
+                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12.3384" cy="12" r="11" stroke="white" stroke-width="2"/>
+                                <rect x="11.3384" y="4" width="2" height="9" rx="1" fill="white"/>
+                                <rect x="17.3384" y="11" width="2" height="6" rx="1" transform="rotate(90 17.3384 11)" fill="white"/>
+                                </svg>
+                                
+                                <div class="join-us__label">
+                                    Время работы
+                                </div>
+                                <div class="join-us__value">
+                                    9:00 – 18:00
+                                    <br>
+                                    Без перерывов и выходных
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+<footer class="main-footer">
+    <div class="container">
+        <div class="row desctop-footer">
+            <div class="col footer-col">
+                <div class="main-header__menu-list">
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Выбор квартир</a></li>
+                        <li><a href="#">Ход строительства</a></li>
+                        <li><a href="#">Документация</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <a href="#header" class="up-container up">
+                    <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.35355 0.646446C4.15829 0.451184 3.84171 0.451184 3.64645 0.646446L0.464466 3.82843C0.269204 4.02369 0.269204 4.34027 0.464466 4.53553C0.659728 4.7308 0.97631 4.7308 1.17157 4.53553L4 1.70711L6.82843 4.53553C7.02369 4.7308 7.34027 4.7308 7.53553 4.53553C7.7308 4.34027 7.7308 4.02369 7.53553 3.82843L4.35355 0.646446ZM4.5 12L4.5 1L3.5 1L3.5 12L4.5 12Z" fill="#23A159"/>
+                        </svg> Наверх                        
+                </a>
+                <div class="footer-phone-n-btn">
+                    <a class="black-link" href="tel:8918914444">8-918-914-44-4 </a>
+                    <a href="#" class="footer-btn" data-toggle="modal" data-target="#exampleModalCenter2">Обратный звонок</a>
+                </div>
+            </div>
+        </div>
+        <div class="row desctop-footer">
+            <div class="col footer-bottom-col">
+                <div class="footer-left-col">
+                    <div class="footer-logo">
+                        <a href="#"><img src="./assets/img/footer-logo.svg" alt="логотип"></a>
+                        <div class="copyright opacity">
+                            © 2020 "Green Town 2". Все права защищены.
+                        </div>
+                    </div>
+                    <div class="contacts">
+                        <div class="contacts-label"><span class="opacity">Отдел продаж: </span>  г. Сочи, ул. Молокова, дом 44, офис 207</div>
+                        <div class="contacts-label"><span class="opacity">Часы работы: </span> 9:00 – 18:00</div>
+                    </div>
+                </div>
+                <div class="footer-right-col">
+                    <div class="author">
+                        <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.8583 9.63427L21.1766 10.3392C24.6707 10.3392 28.3543 10.3392 31.8407 10.3392C32.106 10.9758 32.3258 11.6276 32.5077 12.2946H16.9171L16.4471 13.9621C20.8356 13.9621 25.0269 13.9621 29.4078 13.9621C30.6963 13.9621 31.6816 13.9621 31.7877 13.9621C28.7484 16.1146 26.2245 17.8578 23.9658 19.4116L27.3614 29.4694C26.846 29.9241 26.3003 30.341 25.7167 30.7351L20.7295 15.963L19.0014 16.054C20.4035 20.2074 21.7451 24.179 23.1473 28.3401C23.5565 29.5603 23.8749 30.4926 23.9128 30.5987C20.8735 28.3931 18.4026 26.5513 16.197 24.8915L7.6248 31.1444C7.04119 30.7882 6.47274 30.394 5.92703 29.9544L18.5239 20.7683L17.9175 19.1463C14.378 21.7309 10.9824 24.2017 7.4429 26.7863C6.39695 27.5442 5.60112 28.1278 5.51775 28.1885C6.69254 24.702 7.69302 21.8294 8.59496 19.2676L0 13.333C0.144007 12.6584 0.33349 11.999 0.56087 11.3396L13.3927 20.1999L14.7266 19.0933C11.1189 16.5997 7.67028 14.2198 4.06252 11.7262C3.00141 10.991 2.19043 10.4301 2.09947 10.3695C5.78303 10.324 8.82234 10.324 11.5433 10.3316L14.4462 0.107062C15.1283 0.0312692 15.8181 -0.00662748 16.5154 0.000951847L12.2558 15.0004L13.7337 15.91C14.9313 11.6959 16.0758 7.65607 17.2809 3.44197C17.6371 2.19896 17.9024 1.25154 17.9327 1.15301C19.0847 4.4197 20.0246 7.17099 20.8583 9.63427Z" fill="#BE1420"/>
+                            </svg>
+                            <span class="opacity">Разработка сайта — <a class="red-link" href="#">Конверсия </a> </span>                          
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+
+        <div class="row mobile-footer">
+            <div class="row justify-content-between">
+                <div class="footer-logo">
+                    <a href="#"><img src="./assets/img/footer-logo.svg" alt="логотип"></a>
+                </div>
+                <a class="black-link" href="tel:8918914444">8-918-914-44-4 </a>
+            </div>
+            <div class="row">
+                <div class="main-header__menu-list">
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Выбор квартир</a></li>
+                        <li><a href="#">Ход строительства</a></li>
+                        <li><a href="#">Документация</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#" class="footer-btn" data-toggle="modal" data-target="#exampleModalCenter2">Обратный звонок</a>
+
+            <div class="copyright opacity">
+                © 2020 "Green Town 2". Все права защищены.
+            </div>
+
+            <div class="author">
+                <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20.8583 9.63427L21.1766 10.3392C24.6707 10.3392 28.3543 10.3392 31.8407 10.3392C32.106 10.9758 32.3258 11.6276 32.5077 12.2946H16.9171L16.4471 13.9621C20.8356 13.9621 25.0269 13.9621 29.4078 13.9621C30.6963 13.9621 31.6816 13.9621 31.7877 13.9621C28.7484 16.1146 26.2245 17.8578 23.9658 19.4116L27.3614 29.4694C26.846 29.9241 26.3003 30.341 25.7167 30.7351L20.7295 15.963L19.0014 16.054C20.4035 20.2074 21.7451 24.179 23.1473 28.3401C23.5565 29.5603 23.8749 30.4926 23.9128 30.5987C20.8735 28.3931 18.4026 26.5513 16.197 24.8915L7.6248 31.1444C7.04119 30.7882 6.47274 30.394 5.92703 29.9544L18.5239 20.7683L17.9175 19.1463C14.378 21.7309 10.9824 24.2017 7.4429 26.7863C6.39695 27.5442 5.60112 28.1278 5.51775 28.1885C6.69254 24.702 7.69302 21.8294 8.59496 19.2676L0 13.333C0.144007 12.6584 0.33349 11.999 0.56087 11.3396L13.3927 20.1999L14.7266 19.0933C11.1189 16.5997 7.67028 14.2198 4.06252 11.7262C3.00141 10.991 2.19043 10.4301 2.09947 10.3695C5.78303 10.324 8.82234 10.324 11.5433 10.3316L14.4462 0.107062C15.1283 0.0312692 15.8181 -0.00662748 16.5154 0.000951847L12.2558 15.0004L13.7337 15.91C14.9313 11.6959 16.0758 7.65607 17.2809 3.44197C17.6371 2.19896 17.9024 1.25154 17.9327 1.15301C19.0847 4.4197 20.0246 7.17099 20.8583 9.63427Z" fill="#BE1420"/>
+                    </svg>
+                    <span class="opacity">Разработка сайта — <a class="red-link" href="#">Конверсия </a> </span>                          
+            </div>
+
+
+        </div>
+    </div>
+
+</footer>
+
+
+
+<div class="modal fade modal-video" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        <div class="modal-body">
+            <div class="modal-form__form-container">
+                <h2 class="modal-form__title title-recall"> Обратный звонок</h2>
+                <form action="#" class="modal-form__form">
+                    <input class="modal-form__form-input" type="text" name="" id="" placeholder="Ваше имя*">
+                    <input class="modal-form__form-input" type="tel" name="" id="" placeholder="Телефон*">
+                    <input class="modal-form__form-input" type="text" name="" id="" placeholder="Рассказжите, что вас интересует">
+                    <input class="main-btn submit-input" type="submit" value="Отправить">
+                    <label class="container-checkbox">Я согласен с <a class="greylink" href="#">условиями передачи информации</a>
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                      </label>
+                </form>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="modal-for-form">
+    <div class="modal-for-form__close-btn">
+        <svg class="modal-form-svg" width="130" height="130" viewBox="0 0 130 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_d)">
+            <circle cx="65" cy="61" r="35" fill="#23A159"></circle>
+            </g>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M58.7197 54.7197C59.0126 54.4268 59.4874 54.4268 59.7803 54.7197L65 59.9393L70.2197 54.7197C70.5126 54.4268 70.9874 54.4268 71.2803 54.7197C71.5732 55.0126 71.5732 55.4874 71.2803 55.7803L66.0607 61L71.2803 66.2197C71.5732 66.5126 71.5732 66.9874 71.2803 67.2803C70.9874 67.5732 70.5126 67.5732 70.2197 67.2803L65 62.0607L59.7803 67.2803C59.4874 67.5732 59.0126 67.5732 58.7197 67.2803C58.4268 66.9874 58.4268 66.5126 58.7197 66.2197L63.9393 61L58.7197 55.7803C58.4268 55.4874 58.4268 55.0126 58.7197 54.7197Z" fill="white"></path>
+            <defs>
+            <filter id="filter0_d" x="0" y="0" width="130" height="130" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix>
+            <feOffset dy="4"></feOffset>
+            <feGaussianBlur stdDeviation="15"></feGaussianBlur>
+            <feColorMatrix type="matrix" values="0 0 0 0 0.447059 0 0 0 0 0.686275 0 0 0 0 0.454902 0 0 0 0.32 0"></feColorMatrix>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"></feBlend>
+            </filter>
+            </defs>
+            </svg>
+    </div>
+    <div class="container container-in-form">
+        <div class="col-lg-6">
+            <h2 class="modal-form__title">
+                Запишитесь на персональный показ
+            </h2>
+            <div class="modal-form__separator">
+
+            </div>
+            <div class="header-menu__contacts">
+                <div class="contacts__tel-container">
+                    <div class="contacts__label">Отдел продаж</div>
+                    <a href="tel:+7 (495) 021-38-27" class="contacts__tel">+7 (495) 021-38-27</a>
+                </div>
+
+                <div class="contacts__adress-container">
+                    <div class="contacts__label">Адрес жилого комплекса</div>
+                    <a href="tel:+7 (495) 021-38-27" class="contacts__tel">Адлерский район п. Орел-Изумруд</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="offset-md-1 col-lg-5">
+            <div class="modal-form__form-container">
+                <form action="#" class="modal-form__form">
+                    <input class="modal-form__form-input" type="text" name="" id="" placeholder="Ваше имя*">
+                    <input class="modal-form__form-input" type="tel" name="" id="" placeholder="Телефон*">
+                    <input class="modal-form__form-input" type="text" name="" id="" placeholder="Рассказжите, что вас интересует">
+                    <input class="main-btn submit-input" type="submit" value="Отправить">
+                    <label class="container-checkbox">Я согласен с <a class="greylink" href="#">условиями передачи информации</a>
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                      </label>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="modal fade modal-video" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        <div class="modal-body">
+            <video  class="video-in-modal" width="100%"  controls="controls" poster="video/duel.jpg">
+                <source src="./assets/videos/video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+               </video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+ 
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="./js/slick/slick.min.js"></script>
+    <script src="js/wNumb.min.js"></script>	
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+
+    <!-- <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+</body>
+</html>

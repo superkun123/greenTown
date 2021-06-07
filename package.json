@@ -1,0 +1,14 @@
+{
+  "name": "greentown",
+  "version": "1.0.0",
+  "description": "greentown project",
+  "main": "index.html",
+  "scripts": {
+    "test": "run"
+  },
+  "author": "Egor Kolyadintsev",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
